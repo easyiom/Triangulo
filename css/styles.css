@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* font */
+  font-family: "Averta CY", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container-form {
+  position: -webkit-sticky;
+  position: sticky;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 40vh;
+  left: 10vw;
+}
+
+.container-form input,
+.container-form button {
+  margin: 10px;
+  padding: 3px;
+}
+
+.widget-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  width: 100%;
+}
+
+.widget-container-6-6 > div {
+  width: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
